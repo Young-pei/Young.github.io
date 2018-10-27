@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>用户信息</title>
+	</head>
+
+	<body>
+
+	<form action="https://github.com/Young-pei/Young.github.io" method="get">
+
+	<table border="1" align="center" cellpadding="1" cellspacing="2" >
+				<tr>
+					<td width="650" height="35"><b>1.姓名和联系方式</b></td>
+				</tr>
+
+				<tr>
+					<td width="100" height="35">真实姓名：</td>
+					<td width="250" ><input type="text" name="name"/></td>
+					<td width="300">
+						<input type="radio" name="sex" value=1 />男
+						<input type="radio" name="sex" value=0 />女    
+				</tr>
+
+				<tr>
+					<td width="100" height="70">电子邮箱：</td>
+					<td width="250" ><input type="text" name="email"/></td>
+					<td width="300"><b>非常重要！</b><br>这是本工作室与您联系的首选方式哦,请填写真实.</td>
+				</tr>
+				
+				<tr>
+					<td width="100" height="35">电话：</td>
+					<td width="250" ><input type="text" name="telephone"/></td>
+					<td width="300">非常重要！电话为必须填写项</td>
+				</tr>	
+
+				<tr>
+				    <td width="100" height="35">所实习部门：</td>
+				    <td width="550">
+				            <select>
+							<option value="易千工作室">易千工作室</option>
+							<option value="研发">研发</option>
+							<option value="设计">设计</option>
+							<option value="运营">运营</option>
+							<option value="内容">内容</option>
+						</select>
+                    </td>
+                </tr>
+                
+                <tr>
+					<td width="100" height="35">实习岗位：</td>
+					<td width="250" ><input type="text" name="position"/></td>
+					<td width="300">研发部岗位：前端/后端/运维</td>
+				</tr>  
+
+				<tr>
+					<td width="100" height="35">手机号码：</td>
+					<td width="250" ><input type="text" name="telnum"/></td>
+					<td width="300"> </td>
+				</tr>
+
+				<tr>
+					<td width="100" height="35">邮箱：</td>
+					<td width="250" ><input type="text" name="emailnum"/></td>
+					<td width="300"> </td>
+				</tr>
+
+				<tr>
+					<td width="100" height="35">性别取向：</td>
+					<td width="250" ><input type="text" name="sexydesigher"/></td>
+					<td width="300"> </td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
